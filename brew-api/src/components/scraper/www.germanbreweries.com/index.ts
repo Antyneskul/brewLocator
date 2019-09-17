@@ -1,7 +1,7 @@
 import * as cheerio from 'cheerio';
 import * as decoder from 'iconv-lite';
 import request from '../../../helpers/await-request';
-import { IBrewery } from '../../interfaces/brewery';
+import { IBrewery } from '../../breweries/brewery.interface';
 
 const getBreweries = async () => {
     const url = 'http://www.germanbreweries.com/all_breweries.htm';
