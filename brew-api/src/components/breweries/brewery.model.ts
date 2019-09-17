@@ -1,5 +1,5 @@
 import { Document, Model, model, Schema } from 'mongoose';
-import { IBrewery } from '../../interfaces/brewery';
+import { IBrewery } from './brewery.interface';
 
 const BrewerySchema: Schema = new Schema({
     region: String,

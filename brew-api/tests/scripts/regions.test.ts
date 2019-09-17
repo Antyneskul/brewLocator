@@ -9,15 +9,15 @@ describe('SetRegions', () => {
     test('should return return array of regions', async () => {
         expect(getRegions(breweries)).toEqual([
                 {
-                    region: 'BADEN-WÜRTTEMBERG',
+                    name: 'BADEN-WÜRTTEMBERG',
                     places: ['Aalen', 'Abtsgmünd']
                 },
                 {
-                    region: 'BAYERN',
+                    name: 'BAYERN',
                     places: ['Fürth', 'Furth im Wald', 'Garitz', 'Gars am Inn']
                 },
                 {
-                    region: 'THÜRINGEN',
+                    name: 'THÜRINGEN',
                     places: ['Weimar', 'Weißensee', 'Worbis']
                 }
             ]

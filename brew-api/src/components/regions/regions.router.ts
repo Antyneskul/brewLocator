@@ -1,5 +1,6 @@
 import * as express from 'express';
-import { getAllRegions, getRegionByName } from '../controllers/regions';
+import { getAllRegions, getRegionByName } from './regions.controller';
+
 
 const applyRegionsRouter = (router: express.Router) => {
     router.get('/regions', getAllRegions);

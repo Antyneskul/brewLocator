@@ -7,7 +7,11 @@ import * as helmet from 'helmet';
 import { Router } from 'express';
 
 import { applyRoutes } from './src/routes';
-import { IError } from './src/interfaces/error';
+
+export interface IError {
+    status?: number;
+    message?: string;
+}
 
 const init = async () => {
     await mongoose.connect('mongodb://mongodb/brew', {

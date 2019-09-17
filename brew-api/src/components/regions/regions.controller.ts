@@ -1,5 +1,5 @@
 import * as express from 'express';
-import { Region } from '../db/models/region';
+import { Region } from './region.model';
 
 interface IRegionsParams {
     name?: string

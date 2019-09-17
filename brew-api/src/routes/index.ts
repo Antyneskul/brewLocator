@@ -1,6 +1,6 @@
 import * as express from 'express';
-import applyBreweriesRouter from './breweries';
-import applyRegionsRouter from './regions';
+import applyBreweriesRouter from '../components/breweries/breweries.router';
+import applyRegionsRouter from '../components/regions/regions.router';
 
 
 const applyRoutes = (router: express.Router) => {

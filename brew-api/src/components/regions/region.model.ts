@@ -1,5 +1,5 @@
 import { Document, Model, model, Schema } from 'mongoose';
-import { IRegion } from '../../interfaces/Region';
+import { IRegion } from './region.interface';
 
 const RegionSchema: Schema = new Schema({
     name: String,

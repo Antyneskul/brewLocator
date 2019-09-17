@@ -1,6 +1,7 @@
-import getBreweries from '../scraper/www.germanbreweries.com';
-import { Brewery } from '../db/models/brewery';
-import { IBrewery } from '../interfaces/brewery';
+import getBreweries from '../components/scraper/www.germanbreweries.com';
+import { Brewery } from '../components/breweries/brewery.model';
+import { IBrewery } from '../components/breweries/brewery.interface';
+
 
 const debug = require('debug')('brew-api:breweries');
 

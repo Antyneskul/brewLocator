@@ -1,13 +1,13 @@
-import { IBrewery } from '../interfaces/brewery';
 import { getUniqArray } from '../helpers/arrays';
-import { Region } from '../db/models/region';
-import { IRegion } from '../interfaces/region';
+import { IRegion } from '../components/regions/region.interface';
+import { IBrewery } from '../components/breweries/brewery.interface';
+import { Region } from '../components/regions/region.model';
 
 const debug = require('debug')('brew-api:regions');
 
 const getRegions = (breweries: IBrewery[] = []) => {
     if (!breweries.length) {
-        return undefined;
+        return null;
     }
 
     const regions = getUniqArray(breweries.map(({region}) => region));

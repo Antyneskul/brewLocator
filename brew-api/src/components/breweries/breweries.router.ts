@@ -1,5 +1,5 @@
 import * as express from 'express';
-import { getBreweries, getBrewery } from '../controllers/breweries';
+import { getBreweries, getBrewery } from './breweries.controller';
 
 const applyBreweriesRouter = (router: express.Router) => {
     router.get('/breweries', getBreweries);

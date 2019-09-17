@@ -1,6 +1,6 @@
 import * as cheerio from 'cheerio';
 import * as decoder from 'iconv-lite';
-import request from '../../helpers/await-request';
+import request from '../../../helpers/await-request';
 import { IBrewery } from '../../interfaces/brewery';
 
 const getBreweries = async () => {

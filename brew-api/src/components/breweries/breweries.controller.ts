@@ -1,5 +1,5 @@
 import * as express from 'express';
-import { Brewery } from '../db/models/brewery';
+import { Brewery } from './brewery.model';
 
 interface IBreweriesParams {
     name?: string;
