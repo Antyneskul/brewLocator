@@ -1,0 +1,71 @@
+[
+ {
+  "region": "BADEN-WÜRTTEMBERG",
+  "place": "Aalen",
+  "name": "Aalener Löwenbrauerei",
+  "url": "http://www.bestesbier.de",
+  "address": "73431 aalen galgenbergstr. 8 "
+ },
+ {
+  "region": "BADEN-WÜRTTEMBERG",
+  "place": "Aalen",
+  "name": "Löwenbrauerei Wasseralfingen",
+  "url": "http://www.wasseralfinger.de",
+  "address": "73433 aalen wilhelmstr. 162 "
+ },
+ {
+  "region": "BADEN-WÜRTTEMBERG",
+  "place": "Abtsgmünd",
+  "name": "Wieland",
+  "url": "http://www.wielands-bier.de",
+  "address": "73453 abtsgmuend dewanger strasse 1a "
+ },
+ {
+  "region": "BAYERN",
+  "place": "Fürth",
+  "name": "Tucher",
+  "url": "http://www.tucher.de",
+  "address": "90763 fuerth tucherstrasse 10 "
+ },
+ {
+  "region": "BAYERN",
+  "place": "Furth im Wald",
+  "name": "Dimpfl",
+  "url": "http://www.dimpfl-bier.de",
+  "address": "93437 furth im wald braeuhausstr. 34 "
+ },
+ {
+  "region": "BAYERN",
+  "place": "Garitz",
+  "name": "Stärker",
+  "url": "http://www.staerkerbraeu.de",
+  "address": "97688 bad kissingen baptist hofmann strasse 61 "
+ },
+ {
+  "region": "BAYERN",
+  "place": "Gars am Inn",
+  "name": "Baumer",
+  "address": "83536 gars am inn marktplatz 1 "
+ },
+ {
+  "region": "THÜRINGEN",
+  "place": "Weimar",
+  "name": "Felsenkeller",
+  "url": "http://www.felsenkeller-weimar.de",
+  "address": "99425 weimar in thueringen humboldtstrasse 37 "
+ },
+ {
+  "region": "THÜRINGEN",
+  "place": "Weißensee",
+  "name": "Weißenseer Ratsbräu",
+  "url": "http://ratsbrauerei-weissensee.de",
+  "address": "99631 weissensee marktplatz 26 "
+ },
+ {
+  "region": "THÜRINGEN",
+  "place": "Worbis",
+  "name": "Neunspringe",
+  "url": "http://www.brauerei-neunspringe.de",
+  "address": "37339 leinefelde worbis neunspringer str. 4 "
+ }
+]

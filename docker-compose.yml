@@ -1,0 +1,22 @@
+version: "3"
+services:
+  mongodb:
+    image: mongo
+    expose:
+      - 27017
+    volumes:
+      - ~/data/db:/data/db
+  app:
+    container_name: brew-api
+    image: node:12.8.0-alpine
+    build: ./brew-api
+    depends_on:
+      - mongodb
+    environment:
+      NODE_ENV: development
+      PORT: 3090
+      DEBUG: brew-api:*
+      WAIT_HOSTS: mongodb:27017
+    ports:
+      - 3090:3090
+
