@@ -109,9 +109,10 @@ const getBreweries = async () => {
 
         result = [...even, ...odd]
             .sort((a, b) => a.region - b.region)
-            .filter(({name, place}) => !['PLACE', 'DISTRICT'].includes(place) || name !== 'BREWERY');
+            .filter(({name, place}) => !['PLACE', 'DISTRICT'].includes(place) && name !== 'BREWERY');
 
         return result;
+
     } catch (err) {
         console.error(err)
     }
